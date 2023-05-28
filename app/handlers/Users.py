@@ -25,7 +25,7 @@ class User:
             self.goods = self.goods_template
         self.total_good = len(self.goods.keys())
         self.current_goods = len([i for i in self.goods.values() if i])
-        
+
         # self.total_slots = 3
         # self.count_slots = self.total_slots
         # _empty_template = 'Не указан'
