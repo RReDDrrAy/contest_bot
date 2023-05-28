@@ -5,13 +5,13 @@ from dotenv import dotenv_values
 
 
 TOKEN = dotenv_values("app/.env").get('TOKEN')
-print(TOKEN)
-
 my_id = 15887656
-library_peer = 145
-contest_peer = int()
+library_id = 145
+contest_id = int()
+library_peer = library_id + 2000000000
+contest_peer = contest_id + 2000000000
 
-db_path = Path('./app/db/auc.db')
+db_path = Path('./app/db/main.db')
 api = API(TOKEN)
 labeler = UserLabeler()
 lw = LoopWrapper()

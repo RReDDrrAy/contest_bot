@@ -17,5 +17,5 @@ for labeler in labelers:
 
 if __name__ == "__main__":
     start_ini = time.time()
-    logger.add("game_log.log", rotation='10 mb', level="INFO", retention='3 day')
+    # logger.add("game_log.log", rotation='10 mb', level="INFO", retention='3 day')
     bot.run_forever()
