@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "contest-bot"
+version = "0.1.0"
+description = ""
+authors = ["Tblkva <53375742+Tblkva@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "contest_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+vkbottle = "^4.3.12"
+loguru = "^0.7.0"
+aiosqlite = "^0.19.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
