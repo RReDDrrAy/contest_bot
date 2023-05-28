@@ -4,13 +4,14 @@ version = "0.1.0"
 description = ""
 authors = ["Tblkva <53375742+Tblkva@users.noreply.github.com>"]
 readme = "README.md"
-packages = [{include = "contest_bot"}]
+packages = [{include = "app"}, {include="app.py"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.8"
 vkbottle = "^4.3.12"
 loguru = "^0.7.0"
 aiosqlite = "^0.19.0"
+python-dotenv = "^1.0.0"
 
 
 [build-system]
